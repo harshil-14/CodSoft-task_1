@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    opacity: 0.8;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo{
+    position: relative;
+    right: 460px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    object-fit:cover;
+}
+nav>ul{
+    display: flex;
+    gap: 20px; 
+}
+nav>ul>li:hover{
+    background-color: rgb(81, 81, 81);
+    cursor: pointer;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.login,.signup{
+    position: relative;
+    left:460px;
+}
+main::after{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background:url('/flower_background.png') no-repeat center center/cover;
+    height: 70%;
+    width: 100vw; 
+    z-index: -1; 
+    opacity: 0.89;
+}
+main{
+    margin: 50px 0 25px 0;   
+}
+.search{
+    height: 38px;
+    width: 440px;
+    font-size: xx-large;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.info{
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* top: 200px; */
+    height: 74vh;
+    position: relative;
+}
+.svg{
+    height: 30px;
+    position: relative;
+    right: 235px;
+    top: -33px;
+}
+
+.moto{
+    margin-top: 2px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+
+.ourServices{
+    
+    width: 100vw;
+    margin: 20px 0;
+    
+}
+
+.ourServices h2{
+    margin: 10px;
+    font-size: 50px;
+}
+.serviceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 20px 0px;
+}
+.service{
+    
+    border: 2px solid red;
+    height: 500px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.service>img{
+    border-radius: 25px;
+    margin: 2%;
+    width: 96%;
+    height: 80%;
+    object-fit:cover;
+}
+
+.aboutus{
+    margin: 20px 0;
+}
+.aboutus h2{
+    font-size: 50px;
+    margin: 20px;
+}
+.aboutus h3,p{
+    margin: 20px;
+    font-size: larger;
+}
+
+.contactUs{
+    margin: 20px 0;
+}
+.contactUs h2{
+    font-size: 50px;
+    margin: 20px;
+}
+.contactUs p{
+    margin: 20px;
+    font-size: larger;
+}
+
+.contactUs ul{
+    margin: 20px;
+    font-size: larger;
+}
+
+footer{
+    
+    width: 100vw;
+    height: 25px;
+    bottom: 0px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
